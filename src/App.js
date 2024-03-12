@@ -1,6 +1,9 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Login from './Pages/Login/Login';
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+
 const firebaseConfig = {
   apiKey: "AIzaSyA_o_xKxyBDDjwzmiUu8LVsvBpjbRaZcGU",
   authDomain: "netflico-171.firebaseapp.com",
@@ -11,14 +14,23 @@ const firebaseConfig = {
   measurementId: "G-T3XZ7RZ0KP"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
-function App() {
+const App = () => {
+  // Initialize Firebase
+  initializeApp(firebaseConfig);
   return (
-    <div className="App">
-    </div>
+    <Router>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/login"
+          element={<Login />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
