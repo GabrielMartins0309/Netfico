@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../../App.js';
-import MovieCard from '../MovieCard/MovieCard';
+import Carousel from '../Carousel/Carousel.jsx';
 import './MoviesList.css';
 
 const MoviesList = ({titulo}) => {
@@ -24,13 +24,11 @@ const MoviesList = ({titulo}) => {
     return (
         <div>
             <h1>{titulo}</h1>
-            <div className="movies-container">
-                {movies.map(movie => (
-                    <MovieCard key={movie.poster} poster={movie.poster} nome={movie.nome}/>
-                ))}
-            </div>
+            <section className="movies-container">
+                <Carousel itemsList={movies}/>
+            </section>
         </div>
-    );
+    );        
 };
 
 export default MoviesList;

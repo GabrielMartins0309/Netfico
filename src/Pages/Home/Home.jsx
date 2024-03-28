@@ -4,7 +4,11 @@ import MoviesList from '../../Components/MoviesList/MoviesList';
 
 const Home = () => {
   return ( 
-    <MoviesList titulo="teste"/>
+    <>
+      <MoviesList titulo="Suspense"/>
+      <MoviesList titulo="Drama"/>
+      <MoviesList titulo="Romance"/>
+    </>
   );
 };
 
