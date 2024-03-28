@@ -5,9 +5,9 @@ import MovieCard from '../MovieCard/MovieCard';
 import './Carousel.css';
 
 const responsive = {
-    0: { items: 1 },
+    0: { items: 1.5 },
     568: { items: 2.5 },
-    1024: { items: 3.5 },
+    1024: { items: 5.5 }
 };
 
 const Carousel = ({ itemsList }) => {
@@ -21,8 +21,7 @@ const Carousel = ({ itemsList }) => {
             className="carousel"
             items={items}
             responsive={responsive}
-            disableButtonsControls={false}
-            disableDotsControls={true}
+            disableDotsControls
         />
     );
 };
