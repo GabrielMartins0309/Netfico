@@ -1,1 +1,17 @@
- 
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    margin: 0 2vh;
+}
+
+.menuLogo {
+    width: 10vh;
+    height: 10vh;
+}

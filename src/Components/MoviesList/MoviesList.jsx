@@ -36,7 +36,7 @@ const MoviesList = ({titulo, genero}) => {
 
     return (
         <div>
-            <h1>{titulo}</h1>
+            <p className='tituloSection'>{titulo}</p>
             <section className="movies-container">
                 <Carousel itemsList={movies}/>
             </section>
