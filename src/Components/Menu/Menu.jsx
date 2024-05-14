@@ -12,6 +12,7 @@ const Menu = () => {
             <a href='/' className='seriesMenu'>Series</a>
             <a href='/' className='bombMenu'>Bombando</a>
             <a href='/' className='mylistMenu'>Minha Lista</a>
+            <a href='/search' className='mylistMenu'>Buscar</a>
         </nav>
     );
 };

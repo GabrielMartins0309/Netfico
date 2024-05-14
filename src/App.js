@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import Search from './Pages/Search/Search';
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
@@ -31,6 +32,10 @@ const App = () => {
         <Route
           path="/login"
           element={<Login />}
+        />
+        <Route
+          path="/search"
+          element={<Search />}
         />
       </Routes>
     </Router>
