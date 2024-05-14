@@ -11,6 +11,7 @@ const MovieCard = ({ poster, nome }) => {
   const hoverOff = () => {
     setHovered(false); 
   }
+  
   return ( 
     <div className={`movie-card ${hovered ? 'hovered' : ''}`} onMouseEnter={hoverOn} onMouseLeave={hoverOff}>
         <img src={poster} alt={nome} />

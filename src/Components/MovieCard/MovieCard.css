@@ -1,8 +1,9 @@
 .movie-card {
     display: inline-block;
-    height: 200px;
+    margin-top: 5vh;
 }  
 
 .movie-card.hovered {
-  transform: scale(1.1);
+  transform: scale(1.2) translateX(-10px);
+  transition: transform 0.5s;
 }

@@ -8,8 +8,8 @@ const Home = () => {
     <>  
       <Menu />
       <MoviesList titulo="Todos os filmes"/>
-      <MoviesList titulo="Suspense" genero="Suspense"/>
       <MoviesList titulo="Drama" genero="Drama"/>
+      <MoviesList titulo="Suspense" genero="Suspense"/>
       <MoviesList titulo="Romance" genero="Romance"/>
     </>
   );
