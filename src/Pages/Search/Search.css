@@ -1,0 +1,32 @@
+.tituloSearch {
+    font-size: 4vh;
+}
+
+.inputSearch {
+    width: 60vw;
+    height: 5vh;
+}
+
+.buttonSearch{
+    height: 5vh;
+    width: 10vw;
+    font-size: 2vh;
+    margin-left: 1vh;
+}
+
+.navSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSearch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieCardSearch{
+    margin-top: 5vh;
+}
