@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.login {
+    width: 100%;
+    height: auto;
+    background-image: url("https://telaviva.com.br/wp-content/uploads/2022/05/streaming.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5vh;
+}
+
+
+
+.logoLogin {
+    align-self: center;
+    width: 50%;
+}
+
+.loginForm a {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.loginForm a:hover {
+    font-size: 3.1vh;
+    text-decoration: underline ;
+    
+}
+
+.boxRemember {
+    margin: 1vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    
+}
+
+.signNow{
+    font-size: 3vh;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+

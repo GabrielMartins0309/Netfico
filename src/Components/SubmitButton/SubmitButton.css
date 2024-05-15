@@ -1,0 +1,15 @@
+.submitBtn{
+    background-color: #222;
+    color: #FFF;
+    width: 50vh;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+
+}
+
+.submitBtn:hover{
+    color: rgb(206, 199, 199);
+}
