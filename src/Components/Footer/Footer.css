@@ -1,0 +1,29 @@
+.footer{
+   display: flex;
+   flex-flow: row wrap;
+   background-color: black;
+   height: auto;
+   justify-content: center;
+   align-items: center; 
+   padding-top: 5vh;
+}
+
+.footer p {
+    font-size: 2.5vh;
+    color: white;
+    padding: 0;
+}
+.footer a{
+    color: white;
+    padding: 7vh;
+    font-size: 2.5vh;
+}
+
+#number{
+    text-decoration: none;
+    padding: 1vh;
+}
+
+#number:hover{
+    text-decoration: underline;
+}
