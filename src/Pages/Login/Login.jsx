@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   return (
-    <section>
+    <section name="sectionLogin">
       <div className="login">
       <form className='loginForm' onSubmit={handleLogin}>
         <img src='images/logoBranco.png' alt='logo' className='logoLogin' />

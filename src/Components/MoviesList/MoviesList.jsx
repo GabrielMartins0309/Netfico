@@ -35,12 +35,12 @@ const MoviesList = ({titulo, genero}) => {
     }, []);
 
     return (
-        <div>
+        <nav className='moviesNav'>
             <p className='tituloSection'>{titulo}</p>
             <section className="movies-container">
                 <Carousel itemsList={movies}/>
             </section>
-        </div>
+        </nav>
     );        
 };
 

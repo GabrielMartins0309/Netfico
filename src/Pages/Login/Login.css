@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    margin: 0;
-}
 .login {
     width: 100%;
     height: auto;
@@ -26,8 +23,6 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-size: 5vh;
 }
-
-
 
 .logoLogin {
     align-self: center;
